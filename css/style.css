@@ -1,0 +1,169 @@
+/*Tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 2.8em;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+p{
+	font-size: 1.6em;
+}
+/*Geral*/
+
+body{
+	background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%) center  no-repeat;
+	background-size:  cover;
+}
+
+
+.principal{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 60px;
+}
+
+.logo{
+	height: 120px;
+	width: 440px;
+	background: url(../images/logo.svg) no-repeat left top;
+	color: white;
+	text-indent: -9999px;
+}
+
+.btn-lg{
+	border-radius: 30px;
+	padding: 15px 60px;
+	text-align: center;
+
+}
+
+.redes-sociais{
+	margin-right: 60px;
+	margin-bottom: 20px;
+}
+
+.pad{
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.btn-md{
+	width: 60px;
+	height: 60px;
+	border-radius: 40px;
+}
+
+.icon{
+	line-height: 43px;
+	font-size: 1.8em;
+	text-align: center;	
+}
+
+/*Rodape*/
+.attribution { 
+	font-size: 11px; 
+	text-align: center;
+	color: white;
+}
+
+
+/*Media Queries*/
+/*Extra small devices (portrait phones, menor que 576px)*/
+@media (max-width: 767.98px) {
+	.h1{
+		font-size: 2em;
+		margin-top: 40px;
+	}
+
+	p{
+		font-size: 1.2em;
+	}
+
+	body{
+		background: url(../images/bg-mobile.svg) hsl(257, 40%, 49%) top center no-repeat;
+		background-size: contain;
+	}
+
+	.logo{
+		background-size: 50%;
+		height: 60px;
+	}
+
+	 .redes-sociais{
+		margin: auto;
+		padding: 30px;
+	}
+
+	.principal{
+		margin: 0px;
+		padding: 10px;
+		text-align: center;
+	}
+
+}
+
+/*Medium devices (tablets, 768px e maiores)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.h1{
+		font-size: 2.4em;
+		margin-top: 50px;
+	}
+
+	p{
+		font-size: 1.4em;
+	}
+
+	body{
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+
+	.principal{
+		margin: 0px;
+		padding: 10px;
+		text-align: center;
+	}
+
+    .redes-sociais{
+		margin: auto;
+		padding: 20px;
+	}
+}
+
+/*Large devices (desktops, 992px e maiores)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .principal{
+    	margin: 40px
+    }
+
+    .margin{ 
+    	margin-top: auto;
+    	margin-bottom: auto;
+    	padding: 60px 10px;
+    }
+
+    .pad{
+    	margin-top: 30px;
+    	padding: 10px 30px;
+    }
+
+    body{
+    	background: url(../images/bg-mobile.svg)  hsl(257, 40%, 49%) top center no-repeat;
+    	background-size: cover;
+    }
+
+}
+
+/*Extra large devices (large desktops, 1200px  e maiores)*/
+@media (min-width: 1200px) {
+            
+}
